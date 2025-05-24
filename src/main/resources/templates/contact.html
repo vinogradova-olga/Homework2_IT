@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../static/css/common.css" />
+  <title>Contact Us - Robotics Extra Lessons</title>
+</head>
+<body>
+<nav>
+  <ul class="nav-list">
+    <li><a class="nav-link" href="index.html"><img src="../static/images/Robot1.jpg" alt="Home" class="nav-picture" /></a></li>
+    <li><a class="nav-link" href="index.html">Home</a></li>
+    <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+    <li><a class="nav-link" href="login.html">Login</a></li>
+  </ul>
+</nav>
+
+<main>
+  <header id="titleContainer">
+    <h1>Contact Us</h1>
+    <p>Need more info about robotics lessons? Reach out to us by filling out the form below.</p>
+  </header>
+
+  <section id="contactFormSection" class="flex-container">
+    <form action="#" method="post" id="contactForm" class="flex-item" style="max-width: 500px;">
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" /><br />
+
+      <label for="contact-method">Preferred Contact Method:</label><br />
+      <select id="contact-method" name="contact-method" required>
+        <option value="">--Choose--</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+      </select><br />
+
+      <label for="subscribe">Subscribe to newsletter?</label>
+      <input type="checkbox" id="subscribe" name="subscribe" /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4"></textarea><br />
+
+      <input type="submit" value="Send Message" />
+    </form>
+
+    <div id="contactInfo" class="flex-item">
+      <h2>Contact Info</h2>
+      <p>Email: robotics@extra-lessons.com</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Address: 123 Robotics Street, Riga</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Contact us: robotics@extra-lessons.com | Phone: 123-456-7890</p>
+</footer>
+</body>
+</html>

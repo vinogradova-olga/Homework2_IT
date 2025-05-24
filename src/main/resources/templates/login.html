@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../static/css/common.css" />
+  <title>Login - Robotics Extra Lessons</title>
+</head>
+<body>
+<nav>
+  <ul class="nav-list">
+    <li><a class="nav-link" href="index.html"><img src="../static/images/Robot1.jpg" alt="Home" class="nav-picture" /></a></li>
+    <li><a class="nav-link" href="index.html">Home</a></li>
+    <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+    <li><a class="nav-link" href="login.html">Login</a></li>
+  </ul>
+</nav>
+
+<main>
+  <header id="titleContainer">
+    <h1>Member Login</h1>
+    <p>Please enter your credentials to access your account.</p>
+  </header>
+
+  <section id="loginSection" class="flex-container">
+    <form action="#" method="post" id="loginForm" class="flex-item" style="max-width: 400px;">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" required /><br />
+
+      <label for="remember-me">
+        <input type="checkbox" id="remember-me" name="remember-me" />
+        Remember Me
+      </label><br />
+
+      <input type="submit" value="Login" />
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Contact us: robotics@extra-lessons.com | Phone: 123-456-7890</p>
+</footer>
+</body>
+</html>
